@@ -1,1 +1,9 @@
 # VTLayout
+
+This is the official repo for paper "VTLayout: A Multi-Modal Approach for Video Text Layout" on ACM MM 2023.
+
+Our annotation is in the file BOV_Category_MM2023.csv.
+
+## Abstract
+
+The rapid explosion of video distribution is accompanied by a massive amount of video text, which encompasses rich information about the video content. While previous research has primarily focused on text extraction from videos like text detection, tracking, recognition and end to end spotting, the layout of video text has received limited attention. As different text categories convey distinct meanings, video text layout is critical for video understanding tasks such as video summarization and shooting environment comprehension. To bridge the gap between video OCR and understanding, we explore the study of video text layout in this work. We first optimize the layout annotation of the BOVText, a bilingual, open-world video text dataset, by expanding text categories and defining five clear categories: scene, subtitle, title, logo, and other. Additionally, we rectify the original unreasonable layout annotation based on these definitions. We also propose a Videolevel Text Layout model (VTLayout) to address the layout problem, which fuses textual, visual, and spatial-temporal embedding of video text trajectories. To the best of our knowledge, this is the first method to tackle text layout on video level. Our method outperforms image-level layout methods across all text categories and exhibits faster inference speed. This study underscores the significance of video text layout in video understanding and offers an effective solution to this challenge. 
